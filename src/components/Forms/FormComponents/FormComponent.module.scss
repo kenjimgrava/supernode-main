@@ -1,0 +1,58 @@
+
+.FormTitle {
+  color: white;
+  margin-bottom: 27px;
+  font-size: 24px;
+}
+
+.FieldContainer {
+  margin-bottom: 18px;
+
+  .TextField {
+    font-family: Noto Sans;
+    border: 2px solid #cd410A;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 100%;
+    color: black;
+    .TextFieldPrefix {
+      margin-right: 21px;
+    }
+  }
+}
+
+.FieldLabel {
+  color: white;
+}
+
+.ErrorMessage {
+  color: red;
+  font-size: 14px;
+}
+
+.SubName {
+  font-style: italic;
+  font-weight: normal;
+  line-height: 19px;
+  width: 235px;
+  color: #777777;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.Required {
+  color: red;
+}
+
+.OptionalColor {
+  position: static;
+  color: #777777;
+}
+
+.ColorWhite{
+  color:white
+}

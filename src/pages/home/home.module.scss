@@ -1,0 +1,135 @@
+
+.background {
+    background: url("/assets/png/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.Margin{
+    padding: 50px 30px;
+    h3{
+        color: white;
+        text-align: center;
+    }
+    
+}
+.Details{
+    color: white;
+    padding: 20px;
+}
+
+.MiddleContent{
+    display: flex;
+    align-items: center;
+}
+
+.logoSmall {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .logoSmall {
+        clear: both;
+        display: block;
+        margin: 10px auto 5px 20px;
+    }
+}
+.Chart{
+    @media all and (min-width: 768px) {
+        .desktopView {
+          display: block;
+        }
+        .mobileView {
+          display: none;
+        }
+      }
+      
+      @media all and (max-width: 768px) {
+        .desktopView {
+          display: none;
+        }
+        .mobileView {
+          display: block;
+        }
+      }
+}
+.logoSmall{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 130px;
+}
+
+
+.Team{
+    padding-bottom: 300px;
+    padding-top: 20px;
+}
+
+.TeamMemberPhoto{
+    margin-bottom: 10px;
+   
+}
+.TeamMemberInfo{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    width: 100%;
+    background: #110b17;
+    background-size: 100% 100%;
+    text-align: center;
+    border: 2px solid #e75018;
+
+   
+}
+
+.TeamMemberTitle{
+    font-size: 14px;
+}
+
+
+.Team{
+    @media all and (max-width: 768px) {
+       padding: 50px;
+    }
+}
+
+.BlueBg{
+    background-image: url("/assets/png/background-mb-blue.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    @media all and (max-width: 768px) {
+        background-image: none;
+    } 
+}
+
+.RedBg{
+    background: url("/assets/png/background-mb-red.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    @media all and (max-width: 768px) {
+        background-image: none;
+    } 
+}
+
+
+.TeamBg{
+    background: url("/assets/png/Background_01.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @media all and (max-width: 768px) {
+        background: url("/assets/png/Background_01.png") no-repeat center center fixed;
+    } 
+}
+.ContainerPadding{
+    padding: 50px;
+}
